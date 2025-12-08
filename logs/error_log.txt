@@ -1,0 +1,27 @@
+Traceback (most recent call last):
+  File "/home/bitmhsi/HeiPor/train.py", line 701, in <module>
+    train()
+  File "/home/bitmhsi/HeiPor/train.py", line 509, in train
+    for i,(hsi,rgb,lab) in enumerate(tqdm(tr_ld,desc=f"E{ep+1}/{Config.num_epochs}",leave=False)):
+  File "/home/bitmhsi/.conda/envs/pytorch2.0/lib/python3.9/site-packages/tqdm/std.py", line 1178, in __iter__
+    for obj in iterable:
+  File "/home/bitmhsi/.conda/envs/pytorch2.0/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 630, in __next__
+    data = self._next_data()
+  File "/home/bitmhsi/.conda/envs/pytorch2.0/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 1344, in _next_data
+    return self._process_data(data)
+  File "/home/bitmhsi/.conda/envs/pytorch2.0/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 1370, in _process_data
+    data.reraise()
+  File "/home/bitmhsi/.conda/envs/pytorch2.0/lib/python3.9/site-packages/torch/_utils.py", line 706, in reraise
+    raise exception
+ValueError: Caught ValueError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/home/bitmhsi/.conda/envs/pytorch2.0/lib/python3.9/site-packages/torch/utils/data/_utils/worker.py", line 309, in _worker_loop
+    data = fetcher.fetch(index)  # type: ignore[possibly-undefined]
+  File "/home/bitmhsi/.conda/envs/pytorch2.0/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/bitmhsi/.conda/envs/pytorch2.0/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 52, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/bitmhsi/HeiPor/dataset.py", line 313, in __getitem__
+    raise ValueError(f"HSI 立方体应为3维 (H,W,C)，实际 {cube.shape} @ {hsi_path}")
+ValueError: HSI 立方体应为3维 (H,W,C)，实际 () @ /home/bitmhsi/Pig/HSI/P092#2021_04_27_14_12_54.blosc
+

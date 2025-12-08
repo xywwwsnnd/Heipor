@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="959189ff-3bd1-4f51-8bf9-662ea0ee823b" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/DGA_fushion_resnet+Transpath_bandselect_xattn_residual(DGA)4_softmax.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/OSCC-3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/OSCC.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/fushion_resnet+Transpath_bandselect_xattn_residual(mouth)4_softmax.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DGA_check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DGA_split.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RGB.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/band_selector_loss_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caijian.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/check_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoints/ctranspath.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/full_model.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inspect_and_try_decode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inspect_pickle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/error_log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/train_log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loss.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metrics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model_diagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oscc_flops.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/probe_formats.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resize.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/split.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssa_frfd.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssfenet_block.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/suijizhongzi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tongji.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tool/inspect_transpath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vit_model/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vit_model/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vit_model/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vit_model/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vit_model/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vit_model/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vit_model/.idea/vit_model.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vit_model/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vit_model/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vit_model/decoder/_init_.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vit_model/decoder/bi_gated_decoder_ca.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vit_model/decoder/decoder_block.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vit_model/decoder/decoder_cup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vit_model/decoder/segmentation_head.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vit_model/external/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vit_model/external/transpath/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vit_model/external/transpath/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vit_model/external/transpath/ctran.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vit_model/external/transpath/vits.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vit_model/layers/_init_.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vit_model/layers/complex_conv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vit_model/layers/frft_fdconv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vit_model/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vit_model/utlis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vit_model/vit_seg_configs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vit_model/vit_seg_modeling_resnet_skip.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vit_model/vit_transformer/_init_.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vit_model/vit_transformer/attention.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vit_model/vit_transformer/band_selector.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vit_model/vit_transformer/band_weight.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vit_model/vit_transformer/batch_prototype.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vit_model/vit_transformer/block.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vit_model/vit_transformer/cb_context.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vit_model/vit_transformer/ckpt_probe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vit_model/vit_transformer/embeddings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vit_model/vit_transformer/encoder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vit_model/vit_transformer/frft_fdconv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vit_model/vit_transformer/hybrid_resnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vit_model/vit_transformer/mlp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vit_model/vit_transformer/multiscale.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vit_model/vit_transformer/noise_suppression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vit_model/vit_transformer/spatial_attention.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vit_model/vit_transformer/spectral_attention.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vit_model/vit_transformer/ssfenet_block.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vit_model/vit_transformer/transformer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vit_model/vit_transformer/transpath_wrapper.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="332sDcNSuGNXKVLV7RHFsWEFF5s" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.RGB.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pic.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/HeiPor&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="RGB" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="OSCC" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RGB.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="OSCC-3" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pic" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="OSCC" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pic.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.RGB" />
+        <item itemvalue="Python.pic" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-975db3bf15a3-31b6be0877a2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.18034.82" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="959189ff-3bd1-4f51-8bf9-662ea0ee823b" name="更改" comment="" />
+      <created>1758526383291</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1758526383291</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
